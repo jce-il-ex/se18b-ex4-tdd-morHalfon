@@ -1,0 +1,11 @@
+$ npm install browserify --save-dev
+npm ERR! path D:\learn-tape\se18b-ex4-tdd-morHalfon\node_modules\testling\node_modules\browser-launcher\node_modules\headless
+npm ERR! code ENOENT
+npm ERR! errno -4058
+npm ERR! syscall rename
+npm ERR! enoent ENOENT: no such file or directory, rename 'D:\learn-tape\se18b-ex4-tdd-morHalfon\node_modules\testling\node_modules\browser-launcher\node_modules\headless' -> 'D:\learn-tape\se18b-ex4-tdd-morHalfon\node_modules\testling\node_modules\browser-launcher\node_modules\.headless.DELETE'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\user\AppData\Roaming\npm-cache\_logs\2018-06-03T12_20_33_347Z-debug.log
