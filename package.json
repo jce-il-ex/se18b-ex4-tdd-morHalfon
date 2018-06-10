@@ -15,5 +15,10 @@
     "tape",
     "tutorial"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "tape": "^4.9.0",
+    "testling": "^1.7.1"
+  }
 }
