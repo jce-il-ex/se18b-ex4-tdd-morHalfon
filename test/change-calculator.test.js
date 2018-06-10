@@ -28,3 +28,10 @@ test('calculateChange(1487,10000) should equal [5000, 2000, 1000, 500, 10, 2, 1 
   t.deepEqual(result, expected);
   t.end();
 });
+
+test('calculateChange(1486,10000) should equal [5000, 2000, 1000, 500, 10, 2, 2 ]', function(t) {
+  var result = calculateChange(1486,10000);
+  var expected = [5000, 2000, 1000, 500, 10, 2, 2 ];
+  t.deepEqual(result, expected);
+  t.end();
+});
